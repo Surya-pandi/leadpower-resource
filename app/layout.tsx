@@ -9,8 +9,8 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://leadpowerresource.c
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "LEADPOWER RESOURCE | Engineering Solutions for OEMs",
-    template: "%s | LEADPOWER RESOURCE",
+    default: "leadpower resources | Engineering Solutions for OEMs",
+    template: "%s | leadpower resources",
   },
   description:
     "Specialized Mechanical, Electrical, and Embedded Engineering expertise for OEM product development, validation, and manufacturing.",
@@ -23,13 +23,13 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: "website",
-    title: "LEADPOWER RESOURCE | Engineering Solutions for OEMs",
+    title: "leadpower resources | Engineering Solutions for OEMs",
     description: "Engineering talent behind tomorrow's innovations.",
     images: ["/assets/engineering-hero.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "LEADPOWER RESOURCE",
+    title: "leadpower resources",
     description: "Engineering talent behind tomorrow's innovations.",
     images: ["/assets/engineering-hero.png"],
   },
@@ -39,7 +39,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    name: "LEADPOWER RESOURCE",
+    name: "leadpower resources",
     url: siteUrl,
     description:
       "Specialized Mechanical, Electrical, and Embedded Engineering expertise for OEMs.",

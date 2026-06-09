@@ -12,7 +12,7 @@ export function SiteFooter() {
               <span className="absolute h-px w-5 rotate-45 bg-cyan" />
               <span className="absolute h-px w-5 -rotate-45 bg-white/70" />
             </span>
-            <span className="text-xs font-bold tracking-[0.24em]">LEADPOWER RESOURCE</span>
+            <span className="text-xs font-bold tracking-[0.24em]">leadpower resources</span>
           </Link>
           <p className="mt-6 max-w-sm text-sm leading-7 text-zinc-500">
             Specialized engineering talent and dedicated teams advancing complex OEM products.
@@ -42,7 +42,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-white/[0.06]">
         <div className="site-container flex flex-col gap-3 py-5 text-[0.62rem] uppercase tracking-[0.16em] text-zinc-700 md:flex-row md:justify-between">
-          <span>© {new Date().getFullYear()} LEADPOWER RESOURCE</span>
+          <span>© {new Date().getFullYear()} leadpower resources</span>
           <span>Engineering intelligence, precisely deployed.</span>
         </div>
       </div>

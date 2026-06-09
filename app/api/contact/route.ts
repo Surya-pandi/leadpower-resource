@@ -77,7 +77,7 @@ export async function POST(request: Request) {
             <h2>Thank you, ${safe.name}.</h2>
             <p>We have received your engineering requirement for ${safe.company_name}.</p>
             <p>Our engineering solutions team will review the details and connect with you shortly.</p>
-            <p>LEADPOWER RESOURCE</p>
+            <p>leadpower resources</p>
           `,
         }),
       ]);
@@ -89,7 +89,7 @@ export async function POST(request: Request) {
 
     return NextResponse.json({
       message:
-        "Thank you for contacting LEADPOWER RESOURCE. Our engineering solutions team will connect with you shortly.",
+        "Thank you for contacting leadpower resources. Our engineering solutions team will connect with you shortly.",
     });
   } catch (error) {
     if (error instanceof z.ZodError) {

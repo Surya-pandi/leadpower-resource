@@ -6,7 +6,7 @@ import { PageHero } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Discuss your engineering resource and OEM product-development requirements with LEADPOWER RESOURCE.",
+  description: "Discuss your engineering resource and OEM product-development requirements with leadpower resources.",
 };
 
 const contactPoints = [

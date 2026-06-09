@@ -19,9 +19,9 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        eyebrow="About LEADPOWER"
+        eyebrow="About leadpower resources"
         title="Engineering partnership, designed around the product."
-        copy="LEADPOWER RESOURCE was built to give OEMs reliable access to the specialized engineering intelligence required to develop, validate, and industrialize complex products."
+        copy="leadpower resources was built to give OEMs reliable access to the specialized engineering intelligence required to develop, validate, and industrialize complex products."
         note="We believe the best engineering resource partner understands the work, the environment, and the consequence of every decision."
       />
 
@@ -38,7 +38,7 @@ export default function AboutPage() {
               Product organizations rarely lack ambition. They lose time when the right technical depth is unavailable at the exact moment it is needed.
             </p>
             <p>
-              LEADPOWER RESOURCE closes that gap with specialized Mechanical, Electrical, and Embedded Engineering expertise configured around real OEM workflows. We support critical milestones without disrupting the systems already working.
+              leadpower resources closes that gap with specialized Mechanical, Electrical, and Embedded Engineering expertise configured around real OEM workflows. We support critical milestones without disrupting the systems already working.
             </p>
             <p className="border-l border-cyan pl-6 text-white">
               Our role is simple: add the engineering intelligence that helps excellent teams move faster and execute with confidence.

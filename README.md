@@ -1,4 +1,4 @@
-# LEADPOWER RESOURCE
+# leadpower resources
 
 Premium enterprise engineering website built with Next.js 15, TypeScript, Tailwind CSS, Framer Motion, Supabase, and Resend.
 
@@ -57,4 +57,4 @@ The project includes metadata, Open Graph and Twitter cards, JSON-LD, `sitemap.x
 
 ## Visual asset
 
-`public/assets/engineering-hero.png` was generated specifically for the LEADPOWER RESOURCE visual direction. Replace it with an optimized short-loop MP4/WebM later if a production video becomes available; the hero overlay and layout are already designed to support that transition.
+`public/assets/engineering-hero.png` was generated specifically for the leadpower resources visual direction. Replace it with an optimized short-loop MP4/WebM later if a production video becomes available; the hero overlay and layout are already designed to support that transition.

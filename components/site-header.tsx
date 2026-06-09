@@ -21,7 +21,7 @@ export function SiteHeader() {
           </span>
           <span className="leading-none">
             <span className="block text-[0.72rem] font-bold tracking-[0.24em]">LEADPOWER</span>
-            <span className="mt-1 block text-[0.48rem] tracking-[0.38em] text-zinc-500">RESOURCE</span>
+            <span className="mt-1 block text-[0.48rem] tracking-[0.38em] text-zinc-500">RESOURCES</span>
           </span>
         </Link>
 
